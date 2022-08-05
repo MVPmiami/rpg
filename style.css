@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/img/jow71ge8mzq51.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
