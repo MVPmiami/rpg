@@ -1,7 +1,6 @@
 const canvas = document.querySelector('canvas')
-
-canvas.width = 1080
-canvas.height = 720
+canvas.width = window.screen.width
+canvas.height = window.screen.height
 const c = canvas.getContext('2d')
 
 const collisionsMap = []
@@ -12,8 +11,8 @@ for (let i = 0; i < collisions.length; i += 90) {
 
 const boundaries = []
 const offset = {
-  x: -1050,
-  y: -100,
+  x: -770,
+  y: 0,
 }
 
 collisionsMap.forEach((row, i) => {
